@@ -1,0 +1,21 @@
+{
+    "name": "wandehua/tp-addons",
+    "description": "thikphp addons",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wandehua",
+            "email": "271920545@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Deux\\Library\\":"src/Deux/Library"
+        }
+    }
+}
